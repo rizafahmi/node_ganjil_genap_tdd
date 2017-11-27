@@ -2,5 +2,17 @@
   "name": "GanjilGenap",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "standard": {
+    "globals": [
+      "test",
+      "expect"
+    ]
+  }
 }
