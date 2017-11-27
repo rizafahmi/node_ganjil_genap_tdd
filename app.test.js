@@ -1,9 +1,9 @@
 const request = require('supertest')
 const app = require('./app')
 
-test('`/api/B 123 CDE` to return status 200', async done => {
+test('`/api/B 123 XYZ` to return status 200', async done => {
   try {
-    const response = await request(app).get('/api/B 123 CDE')
+    const response = await request(app).get('/api/B 123 XYZ')
     expect(response.statusCode).toEqual(200)
     done()
   } catch (err) {
